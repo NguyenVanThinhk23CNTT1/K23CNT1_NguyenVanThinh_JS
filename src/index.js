@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import NvtApp from './NvtApp';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const nvtRoot = ReactDOM.createRoot(document.getElementById('nvtRoot'));
+nvtRoot.render(
   <React.StrictMode>
-    <App />
+    <NvtApp />
   </React.StrictMode>
 );
 
